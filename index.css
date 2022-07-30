@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Heebo', sans-serif;
+}
+
+#vanta{
+    z-index: 0;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+main > header > img{
+    z-index: 1;
+    width: 150px;
+    height: auto;
+    border-radius: 100%;
+    border: 4px solid #7CFC00;
+    box-shadow: rgba(34, 255, 0, 0.407) 0px 0px 30px 0px;
+    transition: ease .4s;
+}
+
+main > header > img:hover{
+    transform: scale(1.2) translateY(-5px);
+}
+
+main > header > h1{
+    z-index: 1;
+    margin-top: 1em;
+    font-size: 1.2em;
+    background-color: #000a;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    padding: 10px 70px;
+    color: #fff;
+    /* backdrop-filter: blur(15px) saturate(160%) contrast(180%); */
+    transition: ease .4s;
+}
+
+main > header > h1:hover{
+    border-color: #98465f;
+    transform: scale(1.2);
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8em;
+    text-align: center;
+}
+
+#social-media-links{
+    list-style: none;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+.social-media-link{
+    background-color: #5ebdc49b;
+    border-radius: 10px;
+    padding: 1.1em;
+    margin: 1.1em auto;
+    max-width: 250px;
+    transition: ease .4s;
+}
+
+.social-media-link a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1em;
+    color: #000;
+}
+
+.social-media-link img{
+    width: 20px;
+}

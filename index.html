@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.trunk.min.js"></script>
+    <script>
+    window.addEventListener('DOMContentLoaded', () =>{
+        VANTA.TRUNK({
+        el: "#vanta",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 500.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        backgroundColor: 0xFDF5DF,
+        color: 0xedb83a,
+        spacing: 15,
+        chaos: 4.00
+        })
+    });
+    </script>
+
+    <title>Link in my BIO</title>
+</head>
+<body>
+    <div id="vanta">
+    <main>
+        <header>
+            <img src="media/pp.jpg" alt="profile-pic" id="profile-picture">
+            <!-- <h1>@enektarci</h1> -->
+        </header>
+        <ul id="social-media-links">
+            <li class="social-media-link">
+                <a href="#">
+                    <img src="media/instagram.svg" alt="">
+                    Instagram
+                </a>
+            </li>
+            <li class="social-media-link">
+                <a href="#">
+                    <img src="media/linkedin.svg" alt="">
+                    LinkedIn
+                </a>
+            </li>
+            <li class="social-media-link">
+                <a href="#">
+                    <img src="media/github.svg" alt="">
+                    GitHub
+                </a>
+            </li>
+            <li class="social-media-link">
+                <a href="#">
+                    <img src="media/reddit.svg" alt="">
+                    Reddit
+                </a>
+            </li>
+            <li class="social-media-link">
+                <a href="#">
+                    <img src="media/blog.svg" alt="">
+                    Blog
+                </a>
+            </li>
+        </ul>
+    </main>
+</div>
+</body>
+</html>
